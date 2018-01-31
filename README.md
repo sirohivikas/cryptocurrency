@@ -5,12 +5,11 @@
 What is it:
  It’s a rest api to fetch cryptoresults
 
-### How do I get set up? ###
-  
-* Summary of set up
-  clone the repo and run following commands
-  		* npm install 
-        * npm start
+### How do I get set up?  ###
+
+* clone the repo https://github.com/sirohivikas/cryptocurrency
+* npm install
+* npm start
 
 ### Frontend guidelines ###
 
