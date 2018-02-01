@@ -1,0 +1,62 @@
+{
+	"id": "a9e8f9aa-c086-4993-1fdb-c9f72d68fb66",
+	"name": "CryptoCurrencyPipeLine",
+	"description": "CryptoCurrencyPipeLine rest apis collection",
+	"order": [
+		"7a372434-4e4e-a45b-bcf1-1127a48feeec",
+		"16bd8f9e-a9f3-863b-1dfc-dcf6bb3945a0"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1517466241573,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "16bd8f9e-a9f3-863b-1dfc-dcf6bb3945a0",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/v1/admin/crypto/fetchHistoricalData",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a9e8f9aa-c086-4993-1fdb-c9f72d68fb66",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:3000/v1/admin/crypto/fetchHistoricalData",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1517476759610,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "7a372434-4e4e-a45b-bcf1-1127a48feeec",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/v1/admin/crypto",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a9e8f9aa-c086-4993-1fdb-c9f72d68fb66",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:3000/v1/admin/crypto",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1517476754835,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

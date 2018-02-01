@@ -7,10 +7,6 @@ global._ = require('underscore')
 
 router.use('/users', require('./admin/users')) 
 router.use('/crypto', require('./admin/crypto'))
-//router.use('/classrooms',require('./admin/classrooms'))
-//router.use('/chapters',require('./admin/chapters'))
-//router.use('/lessons',require('./admin/lessons'))
-//router.use('/home',require('./admin/home'))
-//router.use('/payment',require('./admin/payment'))
+
 
 module.exports = router

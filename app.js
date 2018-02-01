@@ -59,9 +59,11 @@ models.sequelize
     .sync()
     .then(function() {
         console.log('Tables Synced');
+        // Job schedule
     }).catch(function(error) {
         console.log('Tables not Created', error);
     })
+
 
 
 module.exports = app;
